@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="chat.css">
+ <meta charset="utf-8">
+  <link rel="icon" sizes="192x192" href="icon.jpg">
+  <link rel="shortcut icon" type="image/x-icon" href="short_icon.jpg">
+<title>PD Group Talk 👨‍👨‍👧</title>
+</head>
+
+<body style="overflow:hidden;">
+
+<br>
+<span class="voic_mut"><label for="nxt" id="text">🔇</label><input onchange="change()" type="checkbox" id="nxt"></span>
+
+<div class="act_ico"><a href="active.htm" target="view" >👨‍👧‍👦</a>‍</div>
+<br>
+
+
+<iframe class="c_frame" src="chat_frame.htm" name="view" ></iframe>
+ <div class="w_tx_b">
+ <img class="w_block" src="white_block.jpg" width="100%">
+  <input class="writ_txt" type="text" placeholder=" Write Text . . ."><a href=""><img class="send" src="send.png" width="30px"></a>
+ </div>
+ 
+ 
+ 
+ <script>
+ function change(){
+  var x=document.getElementById('text').innerText;
+  if(x=='🔊'){
+    document.getElementById('text').innerHTML='🔇';
+  }
+  else{
+    document.getElementById('text').innerHTML='🔊';
+  }
+}
+</script>
+ 
+</body>
+
+</html>

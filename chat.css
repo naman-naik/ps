@@ -1,0 +1,143 @@
+html,body{
+	height:100%;
+}
+.voic_mut{
+	margin-top:-15px;
+	position:fixed;
+	right:65px;
+	background-color:#dcedc8;
+	border:1px solid black;
+	border-radius:10px;
+	padding:1px 1px 1px 0;
+}
+.chat_img{
+	border-radius:50%;
+	border:1px solid black;
+}
+.text_box{
+	background-color:white;
+	padding:10px;
+	border-radius:10px;
+	border:1px solid black;
+}
+.poll{
+	margin-left:35px;
+	margin-top:-40px;
+	width:170px;
+	background-color:white;
+	border:1px solid black;
+	padding:10px;
+	border-radius:20px;
+}
+.sel_choic{
+	margin-left:35px;
+	margin-top:-40px;
+	width:150px;
+	background-color:white;
+	border:1px solid black;
+	padding:10px;
+	border-radius:20px;
+}
+.p_pin{
+	float:right;
+}
+.op_msg{
+	background-color:white;
+	font-size:70px;
+	padding:0px 35px 5px 35px;
+	border-radius:20px;
+	border:1px solid black;
+}
+.op_msg_head{
+    position:relative;
+	top:-20px;
+	left:50px;
+}
+.group_img{
+	border-radius:23px;
+	border:1px solid black;
+}
+.writ_txt{
+	width:80%;
+	height:23px;
+	padding:5px;
+	position:fixed;
+	bottom:7px;
+	border-radius:15px;
+	border:1px solid black;
+}
+.send{
+	text-decoration:none;
+	position:fixed;
+	bottom:9px;
+    left:88%;
+}
+.w_block{
+	height:85px;
+	position:fixed;
+	bottom:-37px;
+	left:-4px;
+}
+.c_frame{
+	width:95%;
+	height:90%;
+	margin-right:-25px;
+	position:fixed;
+	border-radius:15px;
+	border:1px solid black;
+	background-color:#dcedc8;
+}
+#change{
+	padding:5px 10px 5px 10px;
+	background-color:white;
+	border:1px solid black
+}
+.unite{
+	font-size:30px;
+	border:2px solid green;
+	border-radius:50%;
+	background-color:white;
+	box-shadow:0 0 5px green;
+	position:fixed;
+	right:7px;
+	top:40%;
+}
+a{
+	text-decoration:none;
+}
+#ext{
+	float:right;
+	font-size:15px;
+	text-shadow:0 0 2px black;
+}
+.voice_live{
+	width:90%;
+	background-color:#f1f8e9;
+	padding:8px;
+	border:1px solid black;
+	border-radius:10px;
+	position:fixed;
+	top:0;
+}
+.mut_des{
+	background-color:#dcedc8;
+	border-radius:10px;
+	border:1px solid black;
+	padding:2px 2px 2px 0;
+}
+.act_ico{
+	position:fixed;
+	top:10px;
+	right:20px;
+	padding:3px;
+	border:2px solid green;
+	border-radius:50%;
+	box-shadow:0 0 5px green;
+}
+.for_mar{
+	margin-top:43px;
+}
+.w_tx_b{
+	width:98%;
+	margin:auto;
+}

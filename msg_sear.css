@@ -1,0 +1,67 @@
+.post_div{
+	background-color:#dcedc8;
+	border:1px solid green;
+	border-radius:18px;
+	box-shadow:0 0 5px black;
+}
+.post{
+	border-radius:18px;
+	padding:2px;
+}
+.name{
+	font-size:20px;
+	position:relative;
+	left:10px;
+	top:3px;
+}
+.search_bar{
+	width:83%;
+	height:38px;
+	position:relative;
+	top:-10px;
+	left:20px;
+}
+.sear_icon{
+	height:38px;
+	position:relative;
+	top:5px;
+	right:3px;	
+}
+.trend_head{
+	margin-left:5px;
+	text-shadow:0 0 1px green;
+}
+.msg_search{
+	width:100%;
+	height:30px;
+	border:1px solid lightblue;
+}
+.msg_body{
+	border-radius:10px;
+	border:1px solid #ddd;
+	height:75px;
+}
+.chat_prof{
+	border:1px solid black;
+	position:relative;
+	left:5px;
+	top:12px;
+	border-radius:50%;
+}
+.chat_name{
+	position:relative;
+	left:80px;
+	top:-70px;
+}
+.chat{
+	position:relative;
+	left:90px;
+	top:-80px;
+	background-color:#ddd;
+	width:100px;
+	padding:4px;
+	border-radius:20%;
+}
+.heading{
+	text-align:center;
+}

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 50%; 
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.feat_head{
+	font-size:25px;
+	text-align:center;
+	color:black;
+	text-shadow:0 0 3px green;
+}
+.post{
+	margin-left:15px;
+	border:1px solid green;
+	border-radius:20px;
+	box-shadow:0 0 4px black;
+}
+.x{
+	background-color:white;
+    border:1px solid green;
+	border-radius:20px;
+	box-shadow:0 0 5px black;
+}
+.feat_des{
+	margin-left:30px;
+	color:green;
+}

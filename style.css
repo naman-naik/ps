@@ -1,0 +1,166 @@
+.post{
+	border-radius:20px;
+	padding:2px;
+}
+.x{
+	border-radius:25px;
+	box-shadow:0 0 4px black;
+}
+.y{
+	border-radius:18%;
+	padding:1%;
+}
+.n{
+	border-radius:25px;
+	padding:2px;
+}
+.post_div{
+	background-color:#dcedc8;
+	border:1px solid green;
+	border-radius:20px;
+	box-shadow:0 0 5px black;
+}
+.name{
+	font-size:20px;
+	position:relative;
+	left:30px;
+	top:2px;
+}
+.pub_head{
+	color:white;
+	text-align:center;
+}
+.pub_post{
+	background-color:#dcedc8;
+	border: 1px solid green;
+	border-radius:25px;
+	box-shadow:0 0 5px black;
+}
+.postm{
+	border-radius:20px;
+	padding:1%;
+}
+.pub_name{
+    font-size:22px;	
+	margin-left:;
+	position:relative;
+	left:10px;
+	top:-10px;
+}
+.ver_dot{
+	float:right;
+	margin-right:8px;
+	margin-top:5px;
+}
+.verif{
+	margin-top:5px;
+	margin-left:25px;
+	border-radius:50%;
+	border:1px solid blue;
+	background-color:white;
+}
+.acc{
+	height:210px;
+	background-color:#f1f8e9;
+	border-radius:8px;
+	border:1px solid green;
+	box-shadow:0 0 3px black;
+}
+.info{
+	width:50%;
+	position:relative;
+	left:45%;
+	bottom:120px;
+}
+.big_prof{
+	border:2px solid green;
+	opacity:0.9;
+	border-radius:10px;
+	position:relative;
+	left:25px;
+	top:20px;
+}
+.back_prof{
+	border-radius:50%;
+	border:2px solid black;
+	position:relative;
+	left:-61px;
+	top:-20px;
+}
+.post_but{
+	padding:12px;
+	border-radius:20px;
+	border:1px solid black;
+}
+.but_div{
+	width:80%;
+	background-color:#f1f8e9;
+	padding:8px;
+	margin-top:-60px;
+	margin-left:5px;
+	border-radius:8px;
+	border-top:0;
+}
+.msg{
+	position:fixed;
+	right:8px;
+	top:6px;
+	border-radius:;
+}
+.search{
+	position:fixed;
+	top:0px;
+	margin-left:60%;
+}
+.sear_bar{
+	width:60%;
+	border:2px solid green;
+	position:fixed;
+	top:12px;
+	left:9px;
+	height:32px;
+	border-radius:10px;
+}
+.post_head{
+	text-align:center;
+	color:white;
+}
+.iframe{
+	border-radius:15px;
+	margin-top:-8px;
+	border:1px solid black;
+}
+.pin{
+	width:45%;
+	border:1px solid green;
+	border-radius:20px;
+	box-shadow:0 0 4px black;
+}
+.pin_img{
+    margin-left:-15px;	
+}
+.white_block{
+	margin-left:-8px;
+	position:fixed;
+	top:0;
+	width:100%;
+	height:50px;
+}
+.postx{
+	border: 1px solid green;
+	border-radius:25px;
+	width:45%;
+	box-shadow:0 0 4px black;
+}
+#sep_line{
+	height:2px;
+	border-width:1px 0;
+	border-color:green;
+}
+#hide{
+	margin-top:5px;
+}
+#unhide{
+	margin-top:5px;
+}
+

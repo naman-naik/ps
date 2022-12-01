@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="chat.css">
+</head>
+
+<body class="for_mar">
+
+<span class="unite"><a href="features.htm" >💼</a></span>
+
+<div class="voice_live" id="can_live" >
+  <b>Arjun is Voice Live Now 🎙 </b><span class="mut_des"><label for="nxt" id="text">🔊</label><input onchange="change()" type="checkbox" id="nxt" checked></span><span id="ext" onclick="cancel()"><b>❌</b></span>
+
+</div>
+
+<div><img class="chat_img" src="post5.jpg" width="33px" height="33px">
+ <div class="poll">
+  <label for="fst" onclick="slide_rel()">❤&nbsp;</label>
+  <input type="range" id="fst" name="vol"  min="0" max="100" value="0" onchange="slide_rel()"><br>
+   <label for="sec" onclick="slide_rel()">😂</label>
+  <input type="range" id="sec" name="vol" min="0" max="100" value="0" onchange="slide_rel()"><br>
+   <label for="tid" onclick="slide_rel()">👌&nbsp;</label>
+  <input type="range" id="tid" name="vol" min="0" max="100" value="0" onchange="slide_rel()"><br>
+   <label for="fur" onclick="slide_rel()">😴</label>
+  <input type="range" id="fur" name="vol" min="0" max="100" value="0" onchange="slide_rel()"><br>
+  <sub id="asd"><u>120 Votes</u></sub><span class="p_pin">📌</span>
+ </div> 
+</div><br>
+  
+ <div><img class="chat_img" src="post5.jpg" width="33px" height="33px">
+ <div class="sel_choic">
+  <span><b>Photography Level:</b></span><br>
+  <input type="radio" class="sumne" id="ri" name="sel_pol" onchange="rad_sel(this)">
+   <label for="ri" class="sum2">Rich</label><br>
+  <input type="radio" class="sumne" id="gd" name="sel_pol" onchange="rad_sel(this)">
+   <label for="gd" class="sum2">Good</label><br>
+  <input type="radio" class="sumne" id="nb" name="sel_pol" onchange="rad_sel(this)">
+   <label for="nb" class="sum2">Not Bad</label><br>
+  <sub id="dsa"><u>112 Votes</u></sub><span class="p_pin">📌</span>
+  </div>  
+</div><br>  
+  
+  
+  <div><img class="chat_img" src="post11.jpeg" width="33px" height="33px"><img class="group_img" src="group_img3.jpg" width="100px"></div>
+  <div><img class="chat_img" src="post11.jpeg" width="33px" height="33px"><span class="op_msg" id="open_h" onclick="open_msg()">✉</span><br><span class="op_msg_head" id="cl_head">Click To Open</span></div><br>
+  <div><img class="chat_img" src="post14.jpg" width="33px" height="33px"><span class="text_box"> Ohh no oh no oh no no no . . .</span></div><br><br>
+  <div><img class="chat_img" src="post11.jpeg" width="33px" height="33px"><a href=""><img class="group_img" src="group_img8.jpg" width="100px"></a></div><br>
+  <div><img class="chat_img" src="post14.jpg" width="33px" height="33px"><img id="change" class="group_img" src="group_img4a.jpg" width="110px" onclick="display()"></div><br>
+  <div><img class="chat_img" src="post5.jpg" width="33px" height="33px"><span class="text_box"> ho hoo hey heyyyyyyy . . .</span></div><br>
+  
+<br><br>
+
+<script>
+  function display(){
+    document.getElementById("change").src ="group_img4b.jpg"  
+  }
+  
+  function cancel(){
+    document.getElementById('can_live').style.display='none';
+    document.body.style='margin-top:5px';
+  }
+
+
+function change(){
+  var x=document.getElementById('text').innerText;
+  if(x=='🔇'){
+    document.getElementById('text').innerHTML='🔊';
+  }
+  else{
+    document.getElementById('text').innerHTML='🔇';
+  }
+}
+function slide_rel(){
+   document.getElementById('fst').value="65";
+   document.getElementById('sec').value="10";
+   document.getElementById('tid').value="20";
+   document.getElementById('fur').value="5";
+   document.getElementById('asd').innerHTML='<u>121 Votes</u>';
+}
+
+function rad_sel(event){
+   var x = document.getElementsByClassName("sumne")[0].id;
+   var y = document.getElementsByClassName("sumne")[1].id;
+   var z = document.getElementsByClassName("sumne")[2].id;
+   var n=event.id;
+   if(n==x){
+    document.getElementById(y).style.display="none";
+    document.getElementById(z).style.display="none";
+	document.getElementsByClassName("sum2")[1].style.display="none";
+	document.getElementsByClassName("sum2")[2].style.display="none";
+   }
+   else if(n==y){
+    document.getElementById(x).style.display="none";
+    document.getElementById(z).style.display="none";
+	document.getElementsByClassName("sum2")[0].style.display="none";
+	document.getElementsByClassName("sum2")[2].style.display="none";
+   }
+   else{
+    document.getElementById(x).style.display="none";
+    document.getElementById(y).style.display="none";
+	document.getElementsByClassName("sum2")[0].style.display="none";
+	document.getElementsByClassName("sum2")[1].style.display="none";
+   }
+   document.getElementById('dsa').innerHTML='<u>113 Votes</u>';
+}
+
+function open_msg(){
+   document.getElementById('open_h').innerHTML='💌';
+   document.getElementById('cl_head').innerHTML='';
+}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="style.css">
+ <meta charset="utf-8">
+ <link rel="icon" sizes="192x192" href="icon.jpg">
+<link rel="shortcut icon" type="image/x-icon" href="short_icon.jpg">
+<title>PeoDiss</title>
+ 
+</head>
+
+<body>
+<img class="white_block" src="white_block.jpg">
+  <input class="sear_bar" type="search" placeholder=" Search People / # . ."><a href="search.htm" ><img class="search" src="search.png" width="55px" ></a>
+  <a href="msg.htm"><img class="msg" src="msg.jpg" width="40px" ></a>
+  
+  
+  <br><br><br><iframe src="post.htm" class="iframe" title="following posts" width="100%" height="450"></iframe>
+  
+
+<hr id="sep_line">
+<div class="acc">  
+    <a href="post15.jpg" ><img class="big_prof" src="post15.jpg" style="width:90px;height:125px;"></a>
+    <a href="post15.jpg" ><img class="back_prof" src="post5.jpg" style="width:65px;height:60px;"></a>
+	 <div class="info">
+        <h2>Arjun Naik</h2>
+		<p><b>Friends:</b> <i>412</i></p>
+		<p><b>Followers:</b> <i>1608</i></p>
+     </div>
+
+</div>
+<div class="but_div">
+	<input class="post_but" type="button" value="Pin📌" onclick="myFunction1()" style="background-color:#8bc34a;">
+    <input class="post_but" type="button" value="Post📄" onclick="myFunction2()" style="background-color:#f1f8e9;">
+</div>
+	
+<div id="hide" style="display:none;">
+
+  <a href="post11.htm"><img class="postx" src="post11.jpeg"></a><span class="pin_img">🔓</span>&nbsp;&nbsp;<a href="post8.htm"><img class="postx" src="post8.jpg"></a><span class="pin_img">🔒</span>
+</div>
+
+<div id="unhide">
+
+    <a href="post8.htm"><img class="pin" src="post8.jpg"></a><span class="pin_img">📌</span>&nbsp;<a href="post14.htm"><img class="pin" src="post14.jpg"></a><span class="pin_img">📌</span><br>
+</div>
+
+
+<br><br>
+
+<script>
+function myFunction1() {
+   document.getElementById("hide").style.display = "none";
+   document.getElementById("unhide").style.display = "block";
+   document.getElementsByClassName("post_but")[1].style = "background-color:#f1f8e9";
+   document.getElementsByClassName("post_but")[0].style = "background-color:#8bc34a;";
+  
+  }
+ 
+function myFunction2() {
+   document.getElementById("hide").style.display = "block";
+   document.getElementById("unhide").style.display = "none";
+   document.getElementsByClassName("post_but")[0].style = "background-color:#f1f8e9;";
+   document.getElementsByClassName("post_but")[1].style = "background-color:#8bc34a;";
+  
+   }
+</script>
+</body>
+
+</html>

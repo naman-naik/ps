@@ -1,0 +1,41 @@
+.post_div{
+	background-color:#dcedc8;
+	border: 1px solid green;
+	border-radius:25px;
+	box-shadow:0 0 4px black;
+}
+.post{
+	border-radius: 15px;
+	padding:1%;
+}
+h3{
+	text-align:center;
+}
+.acc_name{
+	font-size:22px;
+	position:relative;
+	top:-10px;
+	left:5px;
+}
+.small_prof{
+	width:38px;
+	border:1px solid blue;
+	background-color:white;
+	border-radius:50%;
+	margin-left:10px;
+}
+.left_ico{
+	margin-left:18px;
+}
+.right_ico{
+	float:right;
+	margin-right:10px;
+}
+.top_ico{
+	float:right;
+	margin-top:5px;
+}
+.x{
+	border-radius:20%;
+	padding:1%;
+}

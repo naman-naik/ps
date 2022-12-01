@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="login.css">
+ <meta charset="utf-8">
+ <link rel="icon" sizes="192x192" href="icon.jpg">
+ <link rel="shortcut icon" type="image/x-icon" href="short_icon.jpg">
+<title>PeoDis Login</title>
+</head>
+
+<body><br>
+
+<div class="x"><img class="top_img" src="icon.jpg"></div>
+<div class="top_text"> Login To PeoDis</div>
+
+
+<br><div class="login_block">
+
+   <label for="username">Username :</label> <input class="fill" id="username" type="text" value="_namannaik"><br><br>
+   <label for="password">Password :</label> <input class="fill" type="password" id="password"><br><br>
+   <button class="click" onclick="verify()">Login</button>
+ 
+<p id="show"></p>
+</div>
+
+
+
+<script>
+function verify() {
+   var x = document.getElementById('password').value ;
+   if(x==''){
+        document.getElementById('show').style='color:violet;text-align:center';
+        document.getElementById('show').innerHTML="Please Enter Password";  
+       }
+   else{
+     if (x=='6362'){
+       window.location.replace('home.html','_self');
+        }
+     else {
+        document.getElementById('show').style='color:red;text-align:center';
+        document.getElementById('show').innerHTML="Wrong Password";
+         }
+  }    
+}
+
+</script>
+
+</body>
+</html>

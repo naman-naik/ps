@@ -1,0 +1,42 @@
+body{
+	background-color:#f7f0fe;
+}
+.login_block{
+	width:85%;
+	margin:auto;
+	font-size:20px;
+	text-align:center;
+	background-color:white;
+	padding:50px 0 40px 0;
+	border-radius:20px;
+	border:solid #af69ef;
+	border-width:10px 4px;
+}
+.fill{
+	width:120px;
+	height:25px;
+	border:1px solid black;
+	border-radius:8px;
+}
+.click{
+	width:90px;
+	height:30px;
+	background-color:#ddd;
+	margin:;
+	border:2px solid #af69ef;
+	border-radius:8px;
+    box-shadow:2px 2px 5px black;
+}
+.top_img{
+	width:50px;
+	border-radius:10px;
+	box-shadow:2px 2px 4px black;
+}
+.top_text{
+	font-size:20px;
+	text-align:center;
+	text-shadow:2px 2px 5px #af69ef;
+}
+.x{
+	text-align:center;
+}
